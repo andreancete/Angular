@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+            <div class="jumbotron">
+                <h1 class="display-5">Guia de Perguntas</h1>
+                <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
+                <hr class="my-4">
+                <!-- <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p> -->
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a> -->
+              </div>
+              <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+              </nav>
+              <ul>
+                <% produtos.forEach(function(prod){ %>
+                   <li> 
+                  <%=prod.id %>
+                  <%=prod.nome %>
+                  <%=prod.preco %>
+                   </li> 
+                <% }); %>
+              </ul>
+           
+           <p> <%=nome%></p>
+           <p> <%=lingua%></p>
+           
+        </div>
+
+    </body>
+</html>
