@@ -5,7 +5,7 @@
 		<title>Produtos - Barbearia Alura</title>
 
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="produtos.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
@@ -44,5 +44,10 @@
 				</li>
 			</ul>
 		</main>
+
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
 	</body>
 </html>
