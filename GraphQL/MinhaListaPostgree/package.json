@@ -1,0 +1,21 @@
+{
+  "name": "minhalista",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ancete",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://fi1.fiorilli.com.br:9443/andreancete/minhalista.git"
+  },
+  "keywords": [
+    "#An7189308"
+  ],
+  "description": "",
+  "dependencies": {
+    "postgraphql": "^3.5.6"
+  }
+}

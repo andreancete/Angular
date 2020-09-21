@@ -1,0 +1,72 @@
+type User{
+id:ID!
+nome:String!
+email:String!
+}
+
+
+# type Cliente{
+# id:ID!
+# nome:String!
+# fone:String
+# }
+
+# type Produto{
+# id:ID!
+# descricao:String!
+# valor:String!
+# }
+
+# type ProdutoPedido{
+#     id:ID!
+#     produto:Produto
+#     qtd:String
+#     valor:String
+#     Total:String
+# }
+
+# type Pedido{
+# id:ID!
+# data:String!
+# remessa:Remessa
+# cliente:Cliente!
+# produtos:[ProdutoPedido!]!
+# user:User
+# }
+
+# type Remessa{
+#     id:ID!
+#     qtdMax:String
+#     dataEntrega:String
+#     qtdPedido:String
+#     valorPedido:String
+#     custo:String
+#     lucro:String
+#     pedidos:[Pedido!]!
+# }
+
+type Query{
+users:[User]!
+user(id:ID!):User
+
+# clientes:[Cliente]!
+# cliente(id:ID!):Cliente!
+
+# remessas:[Remessa]!
+# remessa(id:ID!):Remessa
+
+# produtos:[Produto]!
+# produto(id:ID!):Produto
+
+# pedidos:[Pedido]!
+# pedido(id:ID):Pedido
+
+# produtosPedido:[ProdutoPedido]!
+# produtoPedido(id):ProdutoPedido
+
+}
+
+type Mutation {
+createUser(nome:String,email:String,fone:String):User
+}
+
