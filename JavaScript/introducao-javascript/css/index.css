@@ -133,6 +133,7 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 }
 
+<<<<<<< HEAD
 .paciente-invalido {
 	background-color: lightcoral;
 }
@@ -155,4 +156,8 @@ button[disabled=disabled], button:disabled {
 
 .invisivel{
     display: none;
+=======
+.paciente-invalido{
+    background-color: lightcoral;
+>>>>>>> f88e24774a2095b1a3ab3b1852abdd1110bce208
 }

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
+=======
+<html lang="pt-br">
+>>>>>>> f88e24774a2095b1a3ab3b1852abdd1110bce208
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
     <ul class="lista">
         <li>A</li>
         <li>B</li>
@@ -38,5 +43,29 @@
         });
     </script>
     
+=======
+    <ul class="afazeres">
+        <li>Ir ao médico</li>
+        <li>Trocar a senha do Wifi</li>
+        <li>Estudar Javascript</li>
+    </ul>
+    <form class="adicionar-tarefa">
+        <input type="text" name="tarefa">
+        <button id="botao-adicionar">Salvar</button>
+    </form>
+
+    <script>
+        var form = document.querySelector('.adicionar-tarefa');
+var botao = document.querySelector('#botao-adicionar');
+
+botao.addEventListener("click", function(event){
+    event.preventDefault();
+
+    console.log(form.tarefa.value);
+    //Código para adicionar na lista de tarefas
+});
+
+    </script>
+>>>>>>> f88e24774a2095b1a3ab3b1852abdd1110bce208
 </body>
 </html>
