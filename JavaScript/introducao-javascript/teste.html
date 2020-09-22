@@ -1,11 +1,49 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+=======
 <html lang="pt-br">
+>>>>>>> f88e24774a2095b1a3ab3b1852abdd1110bce208
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
+    <ul class="lista">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    
+    <input id="campo"><button id="botao">Adiciona</button>
+    
+    <script>
+    
+        var lis = document.querySelectorAll('li');
+    
+        for(var i = 0; i < lis.length; i++) {
+    
+            lis[i].addEventListener('click', function() {
+    
+                alert(this.textContent);
+            });
+        }
+    
+        var botao = document.querySelector('#botao');
+        var input = document.querySelector('#campo');
+        var lista = document.querySelector('.lista');
+    
+        botao.addEventListener('click',function() {
+    
+            var li = document.createElement('li');
+            li.textContent = input.value;
+            lista.appendChild(li);
+        });
+    </script>
+    
+=======
     <ul class="afazeres">
         <li>Ir ao médico</li>
         <li>Trocar a senha do Wifi</li>
@@ -28,5 +66,6 @@ botao.addEventListener("click", function(event){
 });
 
     </script>
+>>>>>>> f88e24774a2095b1a3ab3b1852abdd1110bce208
 </body>
 </html>
