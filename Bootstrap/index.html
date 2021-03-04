@@ -11,7 +11,43 @@
 
 <body>
     <header>
-        <section class="container sobre-nos">
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+    
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-topCasaFina" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+    
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+    
+                <div class="collapse navbar-collapse" id="navbar-topCasaFina">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#video-institucional">Video Institucional</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="topCasaFina-banner">
+            <h1>TopCasaFina Arquitetura</h1>
+            <p>Projetando a casa dos sonhos desde 2000 A.C</p>
+            <a href="#contato" class="btn btn-primary btn-lg">Contate-nos agora</a>
+        </div>
+        
+    </header>
+    <main>
+       
+        <section class="container sobre-nos" id="sobre-nos">
             <h2>Sobre Nós</h2>
             <img src="img/empresa.jpg" class="img-responsive" alt="Image">
 
@@ -54,10 +90,6 @@
 
             </div>
         </section>
-    </header>
-    <main>
-       
-
         
         <div class="jumbotron">
             <div class="container">
@@ -68,7 +100,7 @@
             
 
 
-        <section class="container meus-projetos">
+        <section class="container meus-projetos" id="nossos-projetos">
             <h2>Nossos projetos</h2>
             <figure class="thumbnail">
                 <img src="img/projetos/casa-castelo.png" class="img-responsive" alt="Image">
@@ -113,7 +145,7 @@
         </section>   
 
 
-        <section  id="Depoimentos">
+        <section  id="Depoimentos" id="depoimentos">
             <div class="titulo-depoimentos">
                 <h3 class="container">Depoimento de clientes</h3>
             </div>
@@ -173,7 +205,7 @@
         </section>
         
 
-        <section class="container"  >
+        <section class="container" id="contato" >
             <h2>Contato</h2>
             <p>Entre em contato conosco</p>
     
@@ -240,6 +272,7 @@
     </footer>
     <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/navbar-animation-fix.js"></script>
 </body>
 
 </html>
