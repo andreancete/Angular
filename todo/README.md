@@ -1,5 +1,5 @@
 # Todo
-Proejeto de Lista de tarefas - salvando o json em local stored
+Projeto de Lista de tarefas - salvando o json em local stored
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
